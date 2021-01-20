@@ -8,11 +8,13 @@ This project uses Maven and JUnit to build and test.
 
 [See here](https://github.com/junit-team/junit4/wiki/Assertions) for information on JUnit
 
-## The task
+## Pass the tests
 
 The code is not complete and doesn't even compile.
-Have a look at the tests to know our intention.
-Design the return type accordingly.
-You need to design a test for an error condition as well.
+See the results of compilation and execution in the GitHub 'Actions' tab.
+
+Recognize the intention of the code by reading the tests.
+Design the return type in the code.
+You may alter the test while keeping its intent.
 
 Take care not to leave behind any compiler warnings in your solution.
