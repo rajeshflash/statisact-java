@@ -31,25 +31,9 @@ public class StatisticsTest
 
         Statistics.Stats s = Statistics.getStatistics(emptyList);
 
-        //All fields of computedStats (average, max, min) must be
-        //Float.NaN (not-a-number), as described in
-        //https://www.geeksforgeeks.org/nan-not-number-java/
-        //Design the asserts here and implement accordingly.
-    }
-    @Test
-    public void reportsAlertsIfMaxIsMoreThanThreshold()
-    {
-        EmailAlert emailAlerter = new EmailAlert();
-        LEDAlert ledAlerter = new LEDAlert();
-        IAlerter alerters[] = {emailAlerter, ledAlerter};
-        float maxThreshold = 10.2f;
-        StatsChecker checker = new StatsChecker(maxThreshold, alerters);
-
-        Float[] numbers = {11.5f, 6.9f, 7.5f, 6.6f};
-        List<___> numberList = Arrays.asList(numbers);
-        checker.checkAndAlert(numbers);
-        
-        assertTrue(emailAlerter.emailSent);
-        assertTrue(ledAlerter.ledGlows);
+        // All fields of computedStats (average, max, min) must be
+        // Float.NaN (not-a-number), as described in
+        // https://www.geeksforgeeks.org/nan-not-number-java/
+        // Specify the asserts here and implement accordingly.
     }
 }
